@@ -5,7 +5,7 @@
     </div>
 
     <div class="justify-center text-center mt-4">
-      <h1 class="text-2xl font-bold text-[#181d30]">Browse by Type</h1>
+      <h1 class="text-2xl font-semibold text-[#181d30]">Browse by Type</h1>
 
       <div id="type-car" class="grid grid-cols-7 pt-8 mx-4 gap-4">
         <div

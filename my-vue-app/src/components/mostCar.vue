@@ -66,11 +66,15 @@
       </TabPanels>
     </TabGroup>
   </div>
+
+  <!-- why us -->
+   <WhyUs/>
   </div>
 </template>
 <script setup>
 import { ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
+import WhyUs from './whyUs.vue'
 
 const categories = ref({
   Instock: [

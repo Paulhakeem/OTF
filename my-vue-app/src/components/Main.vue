@@ -5,7 +5,7 @@
       class="grid grid-cols-2 items-center justify-center gap-10 mt-8"
     >
       <div class="bg-[#e9f3ff] w-full h-72 rounded-lg">
-        <div class="mt-16 text-left pl-10">
+        <div class="mt-8 text-left pl-10">
           <h2 class="text-3xl font-semibold">
             Are you looking <br />
             for a car?
@@ -15,7 +15,7 @@
             with professional services
           </p>
 
-          <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center justify-between mt-2">
             <Button
               class="border-2 border-purple-600 rounded-lg px-3 py-2 text-purple-400 cursor-pointer hover:bg-purple-600 hover:text-purple-200 mt-6"
             >
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="bg-[#ffeaf3] w-full h-72 rounded-lg">
-        <div class="mt-16 text-left pl-10">
+        <div class="mt-8 text-left pl-10">
           <h2 class="text-3xl font-semibold">
             Do you want <br />
             to sale car?
@@ -39,7 +39,7 @@
             with professional services
           </p>
 
-          <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center justify-between mt-2">
             <Button
               class="border-2 border-purple-600 rounded-lg px-3 py-2 text-purple-400 cursor-pointer hover:bg-purple-600 hover:text-purple-200 mt-6"
             >
@@ -55,13 +55,13 @@
     </div>
 
     <!-- popular car -->
-    <mostCar />
+    <mostCar/>
     <!--  -->
   </main>
 </template>
 
-<script setup lang="ts">
-import mostCar from "./mostCar.vue";
+<script setup>
+import mostCar from './mostCar.vue';
 </script>
 
 <style scoped></style>
